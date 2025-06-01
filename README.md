@@ -58,7 +58,27 @@ npm run dev
   `http://localhost:5173`
 - Copie esse endereço e cole no seu navegador (Chrome, Firefox, etc).
 
-Pronto! O projeto estará rodando e você poderá usar normalmente.
+## 7. Rode a API fake (json-server)
+
+Este projeto utiliza o [json-server](https://github.com/typicode/json-server) para simular uma API REST localmente.
+
+No terminal, em uma nova aba ou janela, execute:
+
+```bash
+npx json-server --watch src/mock/db.json --port 3001
+```
+
+- Isso irá iniciar a API fake na porta 3001.
+- O frontend já está configurado para consumir os dados desse endereço.
+- Sempre que quiser testar o sistema, mantenha o json-server rodando junto com o projeto.
+
+Se preferir instalar globalmente:
+
+```bash
+npm install -g json-server
+```
+
+E depois rode o comando acima normalmente.
 
 ---
 
