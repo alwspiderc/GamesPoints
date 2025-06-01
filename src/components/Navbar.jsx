@@ -8,33 +8,43 @@ import { Brand } from './Brand';
 import { Button } from './Button';
 import { ButtonSearch } from './ButtonSearch';
 
-export function Navbar({ onCreate }) {
+export function Navbar({ onCreate, isSearch = true }) {
 	return (
-		<NavbarBootstrap
-			bg="light"
-			expand="lg"
-			className="mb-4"
-			style={{ borderRadius: 8, margin: 32 }}
-		>
+		<NavbarBootstrap bg="light" expand="xl" className="mb-4 p-4" fixed="top">
 			<Container fluid>
 				<Brand />
-				<Form
-					className="d-flex"
-					style={{ flex: 1, marginLeft: 32, marginRight: 32 }}
-				>
-					<InputGroup>
-						<Form.Control
-							type="search"
-							placeholder="Procure a sua sala aqui..."
-							className="me-2"
-							aria-label="Search"
-							style={{ minWidth: 300, background: '#f8f9fa' }}
-						/>
-						<ButtonSearch onClick={() => {}} />
-					</InputGroup>
-				</Form>
-				<Button onClick={onCreate}>Criar Sala</Button>
+				{isSearch && (
+					<Form className="d-flex" style={styles.form}>
+						<InputGroup>
+							<Form.Control
+								size="lg"
+								type="search"
+								placeholder="Procure a sua sala aqui..."
+								style={styles.formControl}
+							/>
+							<ButtonSearch onClick={() => {}} />
+						</InputGroup>
+					</Form>
+				)}
+				<Button onClick={onCreate}>
+					{isSearch ? 'Criar Sala' : 'Adicionar Jogador'}
+				</Button>
 			</Container>
 		</NavbarBootstrap>
 	);
 }
+
+const styles = {
+	navbar: {
+		paddingBottom: 40
+	},
+	form: {
+		flex: 1,
+		marginLeft: 32,
+		marginRight: 32
+	},
+	formControl: {
+		minWidth: 300,
+		background: '#f8f9fa'
+	}
+};
