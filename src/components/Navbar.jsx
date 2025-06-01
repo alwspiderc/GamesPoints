@@ -8,25 +8,36 @@ import { Brand } from './Brand';
 import { Button } from './Button';
 import { ButtonSearch } from './ButtonSearch';
 
-export function Navbar({ onCreate, isSearch = true }) {
+export function Navbar({
+	onCreate,
+	isSearch = true,
+	onSearch,
+	searchValue = ''
+}) {
 	return (
 		<NavbarBootstrap bg="light" expand="xl" className="mb-4 p-4" fixed="top">
 			<Container fluid>
 				<Brand />
 				{isSearch && (
-					<Form className="d-flex" style={styles.form}>
+					<Form className="d-flex w-100" style={styles.form}>
 						<InputGroup>
 							<Form.Control
 								size="lg"
 								type="search"
 								placeholder="Procure a sua sala aqui..."
 								style={styles.formControl}
+								aria-label="Buscar sala"
+								value={searchValue}
+								onChange={(e) => onSearch(e.target.value)}
 							/>
-							<ButtonSearch onClick={() => {}} />
+							<ButtonSearch onClick={() => {}} ariaLabel="Buscar" />
 						</InputGroup>
 					</Form>
 				)}
-				<Button onClick={onCreate}>
+				<Button
+					onClick={onCreate}
+					ariaLabel={isSearch ? 'Criar Sala' : 'Adicionar Jogador'}
+				>
 					{isSearch ? 'Criar Sala' : 'Adicionar Jogador'}
 				</Button>
 			</Container>
@@ -44,7 +55,8 @@ const styles = {
 		marginRight: 32
 	},
 	formControl: {
-		minWidth: 300,
-		background: '#f8f9fa'
+		minWidth: 200,
+		background: '#f8f9fa',
+		maxWidth: '100%'
 	}
 };
