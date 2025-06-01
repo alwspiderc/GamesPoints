@@ -1,8 +1,14 @@
 import { Button as ButtonBootstrap } from 'react-bootstrap';
 
-export function Button({ children, onClick }) {
+export function Button({ children, onClick, ariaLabel, style }) {
 	return (
-		<ButtonBootstrap size="lg" style={styles.button} onClick={onClick}>
+		<ButtonBootstrap
+			size="lg"
+			style={{ ...styles.button, ...style }}
+			onClick={onClick}
+			aria-label={ariaLabel}
+			tabIndex={0}
+		>
 			{children}
 		</ButtonBootstrap>
 	);
