@@ -1,0 +1,59 @@
+{
+  "rooms": [
+    {
+      "id": "1",
+      "nome": "Mario Kart",
+      "nameRoom": "Corrida insana",
+      "description": "Partida final do campeonato de Mario Kart.",
+      "imagem": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80",
+      "data": "2024-06-01",
+      "playersList": [
+        {
+          "id": "1",
+          "name": "Teca",
+          "image": "https://images.pexels.com/photos/1181696/pexels-photo-1181696.jpeg",
+          "score": 7,
+          "description": "Jogador 1"
+        },
+        {
+          "id": "2",
+          "name": "Jon",
+          "image": "https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80",
+          "score": 6,
+          "description": "Jogador 2"
+        },
+        {
+          "id": "3",
+          "name": "Val",
+          "image": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg",
+          "score": 5,
+          "description": "Jogador 3"
+        },
+        {
+          "id": "4",
+          "name": "Lia",
+          "image": "https://images.pexels.com/photos/1707828/pexels-photo-1707828.jpeg",
+          "score": 6,
+          "description": "Jogador 4"
+        }
+      ]
+    },
+    {
+      "id": "d8db",
+      "nome": "Ludo",
+      "nameRoom": "Jogão",
+      "description": "asdsadsad",
+      "imagem": "https://images.unsplash.com/photo-1611996575749-79a3a250f948?auto=format&fit=crop&w=400&q=80",
+      "data": "2025-06-01",
+      "players": 0,
+      "playersList": [
+        {
+          "name": "sdadsdsddsd",
+          "description": "dsadasdsads",
+          "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg",
+          "score": 0
+        }
+      ]
+    }
+  ]
+}
