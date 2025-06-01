@@ -17,6 +17,8 @@ body {
 	background-color: var(--tertiary-color);
 	color: var(--primary-color);
 	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 .primary-color {
@@ -33,4 +35,47 @@ select.form-control:focus {
 	border-color: var(--primary-color);
 	box-shadow: 0 0 0 2px #ffeaea;
 	outline: none;
+}
+
+/* Responsividade global */
+@media (max-width: 900px) {
+	body {
+		padding: 0;
+	}
+	.container,
+	.container-fluid {
+		padding-left: 8px !important;
+		padding-right: 8px !important;
+	}
+}
+
+@media (max-width: 600px) {
+	body {
+		font-size: 15px;
+	}
+	.container,
+	.container-fluid {
+		padding-left: 2px !important;
+		padding-right: 2px !important;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5 {
+		font-size: 1.1em !important;
+	}
+	button,
+	.btn,
+	.form-control {
+		font-size: 1em !important;
+	}
+	img,
+	.card-img-top {
+		max-width: 100% !important;
+		height: auto !important;
+	}
+	.card-body {
+		padding: 12px !important;
+	}
 }
