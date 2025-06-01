@@ -5,3 +5,4 @@ export * from './Button';
 export * from './ButtonSearch';
 export * from './Brand';
 export * from './ListRooms';
+export * from './ConfirmModal';
