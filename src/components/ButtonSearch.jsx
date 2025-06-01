@@ -1,8 +1,13 @@
 import { Button as ButtonBootstrap } from 'react-bootstrap';
 
-export function ButtonSearch({ onClick }) {
+export function ButtonSearch({ onClick, ariaLabel }) {
 	return (
-		<ButtonBootstrap onClick={onClick} style={styles.button}>
+		<ButtonBootstrap
+			onClick={onClick}
+			style={styles.button}
+			aria-label={ariaLabel}
+			tabIndex={0}
+		>
 			<i className="bi bi-search" />
 		</ButtonBootstrap>
 	);
