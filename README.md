@@ -10,3 +10,57 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Como rodar este projeto
+
+Siga o passo a passo abaixo, mesmo que você nunca tenha programado antes!
+
+## 1. Instale o Node.js
+
+- Acesse: [https://nodejs.org/](https://nodejs.org/)
+- Baixe e instale a versão recomendada para o seu computador (Windows, Mac ou Linux).
+
+## 2. Baixe o projeto
+
+- Clique em "Code" (ou "Código") e depois em "Download ZIP" para baixar o projeto para o seu computador.
+- Extraia o arquivo ZIP em uma pasta de sua preferência.
+
+## 3. Abra a pasta do projeto
+
+- No seu computador, abra a pasta onde você extraiu o projeto.
+
+## 4. Abra o terminal (Prompt de Comando)
+
+- **Windows:** Aperte a tecla `Windows`, digite "cmd" e pressione Enter.
+- **Mac:** Abra o aplicativo "Terminal".
+- **Linux:** Procure por "Terminal" no menu de aplicativos.
+
+## 5. Instale as dependências
+
+No terminal, digite o comando abaixo e pressione Enter:
+
+```bash
+npm install
+```
+
+Esse comando prepara o projeto para rodar no seu computador. Aguarde até terminar.
+
+## 6. Rode o projeto
+
+Ainda no terminal, digite:
+
+```bash
+npm run dev
+```
+
+- Aguarde alguns segundos.
+- O terminal vai mostrar um endereço, geralmente algo como:  
+  `http://localhost:5173`
+- Copie esse endereço e cole no seu navegador (Chrome, Firefox, etc).
+
+Pronto! O projeto estará rodando e você poderá usar normalmente.
+
+---
+
+**Dica:**  
+Se tiver qualquer dúvida, peça ajuda para alguém que já tenha experiência com programação ou entre em contato com o responsável pelo projeto.
