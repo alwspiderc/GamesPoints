@@ -10,23 +10,23 @@
 		"playersList": [
 			{
 				"id": 1,
-				"name": "John Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Teca",
+				"image": "https://images.pexels.com/photos/1181696/pexels-photo-1181696.jpeg"
 			},
 			{
 				"id": 2,
-				"name": "Jane Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Jon",
+				"image": "https://images.pexels.com/photos/907156/pexels-photo-907156.jpeg"
 			},
 			{
 				"id": 3,
-				"name": "John Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Val",
+				"image": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg"
 			},
 			{
 				"id": 4,
-				"name": "Jane Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Lia",
+				"image": "https://images.pexels.com/photos/1707828/pexels-photo-1707828.jpeg"
 			}
 		]
 	},
@@ -41,23 +41,23 @@
 		"playersList": [
 			{
 				"id": 1,
-				"name": "John Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Ana",
+				"image": "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg"
 			},
 			{
 				"id": 2,
-				"name": "Jane Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Beto",
+				"image": "https://images.pexels.com/photos/163077/mario-arcade-game-video-163077.jpeg"
 			},
 			{
 				"id": 3,
-				"name": "John Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Cris",
+				"image": "https://images.pexels.com/photos/1707828/pexels-photo-1707828.jpeg"
 			},
 			{
 				"id": 4,
-				"name": "Jane Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Dani",
+				"image": "https://images.pexels.com/photos/1181696/pexels-photo-1181696.jpeg"
 			}
 		]
 	},
@@ -72,23 +72,23 @@
 		"playersList": [
 			{
 				"id": 1,
-				"name": "John Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Eli",
+				"image": "https://images.pexels.com/photos/907156/pexels-photo-907156.jpeg"
 			},
 			{
 				"id": 2,
-				"name": "Jane Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Fábio",
+				"image": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg"
 			},
 			{
 				"id": 3,
-				"name": "John Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Gabi",
+				"image": "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg"
 			},
 			{
 				"id": 4,
-				"name": "Jane Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Hugo",
+				"image": "https://images.pexels.com/photos/1181696/pexels-photo-1181696.jpeg"
 			}
 		]
 	},
@@ -103,22 +103,23 @@
 		"playersList": [
 			{
 				"id": 1,
-				"name": "John Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Isa",
+				"image": "https://images.pexels.com/photos/163077/mario-arcade-game-video-163077.jpeg"
 			},
 			{
 				"id": 2,
-				"name": "Jane Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "João",
+				"image": "https://images.pexels.com/photos/1707828/pexels-photo-1707828.jpeg"
 			},
 			{
 				"id": 3,
-				"name": "John Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Katia",
+				"image": "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg"
 			},
 			{
 				"id": 4,
-				"name": "Jane Doe"
+				"name": "Leo",
+				"image": "https://images.pexels.com/photos/907156/pexels-photo-907156.jpeg"
 			}
 		]
 	},
@@ -133,23 +134,23 @@
 		"playersList": [
 			{
 				"id": 1,
-				"name": "John Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Mila",
+				"image": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg"
 			},
 			{
 				"id": 2,
-				"name": "Jane Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Nina",
+				"image": "https://images.pexels.com/photos/1181696/pexels-photo-1181696.jpeg"
 			},
 			{
 				"id": 3,
-				"name": "John Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Otto",
+				"image": "https://images.pexels.com/photos/163077/mario-arcade-game-video-163077.jpeg"
 			},
 			{
 				"id": 4,
-				"name": "Jane Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Pia",
+				"image": "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg"
 			}
 		]
 	},
@@ -164,23 +165,23 @@
 		"playersList": [
 			{
 				"id": 1,
-				"name": "John Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Quim",
+				"image": "https://images.pexels.com/photos/1707828/pexels-photo-1707828.jpeg"
 			},
 			{
 				"id": 2,
-				"name": "Jane Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Rafa",
+				"image": "https://images.pexels.com/photos/907156/pexels-photo-907156.jpeg"
 			},
 			{
 				"id": 3,
-				"name": "John Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Susi",
+				"image": "https://images.pexels.com/photos/1181696/pexels-photo-1181696.jpeg"
 			},
 			{
 				"id": 4,
-				"name": "Jane Doe",
-				"image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80"
+				"name": "Tom",
+				"image": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg"
 			}
 		]
 	}
