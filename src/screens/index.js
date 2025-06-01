@@ -1,4 +1,4 @@
 export * from './Home';
-export * from './Players';
+export * from './RoomPlayers';
 export * from './CreateRoomModal';
 export * from './CreatePlayerModal';
