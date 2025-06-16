@@ -72,8 +72,6 @@ export function Home() {
 		room.nome.toLowerCase().includes(searchTerm.toLowerCase())
 	);
 
-	if (rooms.length === 0) return <div>Nenhuma sala encontrada...</div>;
-
 	return (
 		<Container style={styles.container}>
 			<Navbar
@@ -83,13 +81,20 @@ export function Home() {
 			/>
 			<Container style={styles.containerRooms}>
 				<Title>Salas de Jogos</Title>
-
-				<ListRooms
-					rooms={filteredRooms}
-					goToRoom={goToRoom}
-					editRoom={editRoom}
-					deleteRoom={askDeleteRoom}
-				/>
+				{filteredRooms.length === 0 && (
+					<div style={styles.emptyRooms}>
+						<h1>Nenhuma sala encontrada...</h1>
+						<p>Crie uma sala para começar a jogar!</p>
+					</div>
+				)}
+				{filteredRooms.length > 0 && (
+					<ListRooms
+						rooms={filteredRooms}
+						goToRoom={goToRoom}
+						editRoom={editRoom}
+						deleteRoom={askDeleteRoom}
+					/>
+				)}
 			</Container>
 			<CreateRoomModal
 				show={showModal}
@@ -117,6 +122,13 @@ const styles = {
 		minHeight: '100vh',
 		marginTop: 200,
 		width: '100%'
+	},
+	emptyRooms: {
+		marginTop: 200,
+		display: 'flex',
+		flexDirection: 'column',
+		alignItems: 'center',
+		justifyContent: 'center'
 	},
 	containerRooms: {
 		background: '#fff',

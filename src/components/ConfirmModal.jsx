@@ -1,5 +1,6 @@
 import React from 'react';
-import { Modal, Button } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
+import { Button } from './Button';
 
 export function ConfirmModal({
 	show,
@@ -17,13 +18,20 @@ export function ConfirmModal({
 			</Modal.Header>
 			<Modal.Body>{message}</Modal.Body>
 			<Modal.Footer>
-				<Button variant="secondary" onClick={onHide} aria-label="Cancelar">
+				<Button onClick={onHide} aria-label="Cancelar" style={styles.button}>
 					{cancelLabel}
 				</Button>
-				<Button variant="danger" onClick={onConfirm} aria-label="Confirmar">
+				<Button onClick={onConfirm} aria-label="Confirmar">
 					{confirmLabel}
 				</Button>
 			</Modal.Footer>
 		</Modal>
 	);
 }
+
+const styles = {
+	button: {
+		backgroundColor: '#bcab29',
+		color: '#fff'
+	}
+};
