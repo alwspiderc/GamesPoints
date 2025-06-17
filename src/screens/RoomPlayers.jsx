@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { Button, Title, Navbar } from '../components';
+import { API_ENDPOINTS } from '../config/api';
 
 export function RoomPlayers() {
 	const { id } = useParams();
@@ -11,7 +12,7 @@ export function RoomPlayers() {
 	const location = useLocation();
 
 	useEffect(() => {
-		fetch(`http://localhost:3001/rooms/${id}`)
+		fetch(API_ENDPOINTS.getRoom(id))
 			.then((res) => res.json())
 			.then((data) => {
 				setRoom(data);
@@ -37,17 +38,12 @@ export function RoomPlayers() {
 		const novoScore =
 			(players.find((p) => p.id === playerId)?.score || 0) + delta;
 
-		fetch(`http://localhost:3001/players/${playerId}`, {
-			method: 'PATCH',
-			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ score: novoScore })
-		});
-
 		const updatedPlayersList = players.map((player) =>
 			player.id === playerId ? { ...player, score: novoScore } : player
 		);
 
-		fetch(`http://localhost:3001/rooms/${room.id}`, {
+		// Atualizar a sala com a nova lista de jogadores
+		fetch(API_ENDPOINTS.getRoom(room.id), {
 			method: 'PATCH',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({ playersList: updatedPlayersList })

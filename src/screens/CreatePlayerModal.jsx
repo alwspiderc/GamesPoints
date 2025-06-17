@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Modal, Form, Row, Col, Alert } from 'react-bootstrap';
 import { Button } from '../components/Button';
 import { useLocation } from 'react-router-dom';
+import { API_ENDPOINTS } from '../config/api';
 
 export function CreatePlayerModal({ show, onHide, onCreate }) {
 	const [form, setForm] = useState({
@@ -61,7 +62,7 @@ export function CreatePlayerModal({ show, onHide, onCreate }) {
 			score: 0
 		};
 
-		fetch(`http://localhost:3001/rooms/${room.id}`, {
+		fetch(API_ENDPOINTS.getRoom(room.id), {
 			method: 'PATCH',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({ playersList: [...room.playersList, newPlayer] })

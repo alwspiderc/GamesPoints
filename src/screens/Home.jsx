@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { ListRooms, Navbar, Title, ConfirmModal } from '../components';
 import { CreateRoomModal } from './CreateRoomModal';
+import { API_ENDPOINTS } from '../config/api';
 
 export function Home() {
 	const navigate = useNavigate();
@@ -17,7 +18,7 @@ export function Home() {
 	const [searchTerm, setSearchTerm] = useState('');
 
 	useEffect(() => {
-		fetch('http://localhost:3001/rooms')
+		fetch(API_ENDPOINTS.rooms)
 			.then((res) => res.json())
 			.then((data) => setRooms(data));
 	}, []);
@@ -47,7 +48,7 @@ export function Home() {
 
 	function deleteRoom() {
 		if (!roomToDelete) return;
-		fetch(`http://localhost:3001/rooms/${roomToDelete.id}`, {
+		fetch(API_ENDPOINTS.getRoom(roomToDelete.id), {
 			method: 'DELETE'
 		});
 		setRooms(rooms.filter((r) => r.id !== roomToDelete.id));
@@ -63,7 +64,7 @@ export function Home() {
 	function handleRoomCreatedOrEdited() {
 		setShowModal(false);
 		setRoomToEdit(null);
-		fetch('http://localhost:3001/rooms')
+		fetch(API_ENDPOINTS.rooms)
 			.then((res) => res.json())
 			.then((data) => setRooms(data));
 	}

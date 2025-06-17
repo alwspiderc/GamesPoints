@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Modal, Form, Row, Col, Alert } from 'react-bootstrap';
 import { Button } from '../components/Button';
+import { API_ENDPOINTS } from '../config/api';
 
 export function CreateRoomModal({ show, onHide, onCreate, room }) {
 	const [form, setForm] = useState({
@@ -149,9 +150,7 @@ export function CreateRoomModal({ show, onHide, onCreate, room }) {
 		};
 
 		const url =
-			room && room.id
-				? `http://localhost:3001/rooms/${room.id}`
-				: 'http://localhost:3001/rooms';
+			room && room.id ? API_ENDPOINTS.getRoom(room.id) : API_ENDPOINTS.rooms;
 
 		const method = room && room.id ? 'PUT' : 'POST';
 
