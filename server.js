@@ -1,8 +1,10 @@
-const jsonServer = require('json-server');
-const path = require('path');
+import jsonServer from 'json-server';
+import path from 'path';
 
 const server = jsonServer.create();
-const router = jsonServer.router(path.join(__dirname, 'src/mock/db.json'));
+const router = jsonServer.router(
+	path.join(import.meta.dirname, 'src/mock/db.json')
+);
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);

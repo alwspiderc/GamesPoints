@@ -4,54 +4,213 @@
 			"id": "1",
 			"nome": "Mario Kart",
 			"nameRoom": "Corrida insana",
-			"description": "Partida final do campeonato de Mario Kart.",
+			"description": "Partida final do campeonato de Mario Kart com os pilotos mais experientes!",
 			"imagem": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80",
-			"data": "2024-06-01",
+			"data": "2024-12-15",
 			"playersList": [
 				{
 					"id": "1",
 					"name": "Teca",
 					"image": "https://images.pexels.com/photos/1181696/pexels-photo-1181696.jpeg",
-					"score": 7,
-					"description": "Jogador 1"
+					"score": 8,
+					"description": "Especialista em Rainbow Road"
 				},
 				{
 					"id": "2",
 					"name": "Jon",
 					"image": "https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80",
 					"score": 6,
-					"description": "Jogador 2"
+					"description": "Mestre dos atalhos"
 				},
 				{
 					"id": "3",
 					"name": "Val",
 					"image": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg",
-					"score": 5,
-					"description": "Jogador 3"
+					"score": 7,
+					"description": "Rainha das casca azuis"
 				},
 				{
 					"id": "4",
 					"name": "Lia",
 					"image": "https://images.pexels.com/photos/1707828/pexels-photo-1707828.jpeg",
-					"score": 6,
-					"description": "Jogador 4"
+					"score": 5,
+					"description": "Estrategista dos power-ups"
 				}
 			]
 		},
 		{
-			"id": "d8db",
-			"nome": "Ludo",
-			"nameRoom": "Jogão",
-			"description": "asdsadsad",
-			"imagem": "https://images.unsplash.com/photo-1611996575749-79a3a250f948?auto=format&fit=crop&w=400&q=80",
-			"data": "2025-06-01",
-			"players": 0,
+			"id": "2",
+			"nome": "Among Us",
+			"nameRoom": "Nave Espacial",
+			"description": "Missão crítica! Descobra quem são os impostores antes que seja tarde demais.",
+			"imagem": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?auto=format&fit=crop&w=400&q=80",
+			"data": "2024-12-16",
 			"playersList": [
 				{
-					"name": "sdadsdsddsd",
-					"description": "dsadasdsads",
+					"id": "5",
+					"name": "Ana",
+					"image": "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
+					"score": 3,
+					"description": "Detetive experiente"
+				},
+				{
+					"id": "6",
+					"name": "Carlos",
+					"image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+					"score": 5,
+					"description": "Impostor profissional"
+				},
+				{
+					"id": "7",
+					"name": "Mia",
 					"image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg",
-					"score": 0
+					"score": 2,
+					"description": "Especialista em tarefas"
+				},
+				{
+					"id": "8",
+					"name": "Pedro",
+					"image": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+					"score": 4,
+					"description": "Observador silencioso"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"nome": "Uno",
+			"nameRoom": "Cartas Selvagens",
+			"description": "Prepare-se para reviravoltas épicas! Quem será o primeiro a gritar UNO?",
+			"imagem": "https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80",
+			"data": "2024-12-17",
+			"playersList": [
+				{
+					"id": "9",
+					"name": "Sofia",
+					"image": "https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg",
+					"score": 12,
+					"description": "Mestra do +4"
+				},
+				{
+					"id": "10",
+					"name": "Bruno",
+					"image": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg",
+					"score": 8,
+					"description": "Rei das cartas especiais"
+				},
+				{
+					"id": "11",
+					"name": "Luna",
+					"image": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg",
+					"score": 15,
+					"description": "Estrategista das cores"
+				},
+				{
+					"id": "12",
+					"name": "Diego",
+					"image": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg",
+					"score": 6,
+					"description": "Especialista em bloqueios"
+				}
+			]
+		},
+		{
+			"id": "4",
+			"nome": "Catan",
+			"nameRoom": "Ilha dos Colonizadores",
+			"description": "Construa sua civilização! Colete recursos, construa estradas e domine Catan.",
+			"imagem": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=400&q=80",
+			"data": "2024-12-18",
+			"playersList": [
+				{
+					"id": "13",
+					"name": "Marina",
+					"image": "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg",
+					"score": 9,
+					"description": "Arquiteta de estradas"
+				},
+				{
+					"id": "14",
+					"name": "Rafael",
+					"image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+					"score": 11,
+					"description": "Comerciante habilidoso"
+				},
+				{
+					"id": "15",
+					"name": "Clara",
+					"image": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg",
+					"score": 7,
+					"description": "Coletora de recursos"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"nome": "FIFA 24",
+			"nameRoom": "Copa Mundial",
+			"description": "Torneio eliminatório! Apenas os melhores técnicos virtuais chegarão à final.",
+			"imagem": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=400&q=80",
+			"data": "2024-12-19",
+			"playersList": [
+				{
+					"id": "16",
+					"name": "Gabriel",
+					"image": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg",
+					"score": 18,
+					"description": "Craque dos dribles"
+				},
+				{
+					"id": "17",
+					"name": "Isabela",
+					"image": "https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg",
+					"score": 22,
+					"description": "Artilheira implacável"
+				},
+				{
+					"id": "18",
+					"name": "Lucas",
+					"image": "https://images.pexels.com/photos/1462980/pexels-photo-1462980.jpeg",
+					"score": 15,
+					"description": "Defensor estratégico"
+				},
+				{
+					"id": "19",
+					"name": "Amanda",
+					"image": "https://images.pexels.com/photos/163077/mario-arcade-game-video-163077.jpeg",
+					"score": 20,
+					"description": "Meia-campo criativa"
+				}
+			]
+		},
+		{
+			"id": "6",
+			"nome": "Monopoly",
+			"nameRoom": "Império Imobiliário",
+			"description": "O jogo mais clássico dos negócios! Compre, venda e domine o mercado imobiliário.",
+			"imagem": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+			"data": "2024-12-20",
+			"playersList": [
+				{
+					"id": "20",
+					"name": "Roberto",
+					"image": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg",
+					"score": 2500,
+					"description": "Magnata dos hotéis"
+				},
+				{
+					"id": "21",
+					"name": "Carla",
+					"image": "https://images.pexels.com/photos/1181696/pexels-photo-1181696.jpeg",
+					"score": 1800,
+					"description": "Rainha das estações"
+				},
+				{
+					"id": "22",
+					"name": "Thiago",
+					"image": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg",
+					"score": 3200,
+					"description": "Colecionador de ruas"
 				}
 			]
 		}
